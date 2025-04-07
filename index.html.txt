@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Café Breeze – Drink Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f4f0;
+      color: #333;
+    }
+    header {
+      background-color: #7b4e3c;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+    h1 {
+      margin: 0;
+    }
+    .menu-section {
+      padding: 1rem 2rem;
+    }
+    .section-title {
+      border-bottom: 2px solid #ccc;
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      color: #7b4e3c;
+    }
+    .item {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+      border-bottom: 1px dashed #ddd;
+    }
+    .item-name {
+      font-weight: bold;
+    }
+    .price {
+      color: #555;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Café Breeze</h1>
+    <p>Drink Menu</p>
+  </header>
+
+  <div class="menu-section">
+    <div class="section-title">☕ Coffee</div>
+    <div class="item">
+      <div class="item-name">Espresso</div>
+      <div class="price">$2.50</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Latte</div>
+      <div class="price">$3.50</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Cappuccino</div>
+      <div class="price">$3.50</div>
+    </div>
+
+    <div class="section-title">🫖 Tea</div>
+    <div class="item">
+      <div class="item-name">Green Tea</div>
+      <div class="price">$2.00</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Earl Grey</div>
+      <div class="price">$2.50</div>
+    </div>
+
+    <div class="section-title">🥤 Cold Drinks</div>
+    <div class="item">
+      <div class="item-name">Iced Coffee</div>
+      <div class="price">$3.00</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Lemonade</div>
+      <div class="price">$2.80</div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Café Breeze. All rights reserved.
+  </footer>
+</body>
+</html>
